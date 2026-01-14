@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Matéria: O Universo das Tags HTML</title>
+</head>
+<body>
+
+    <header>
+        <h1>O que são Tags? e quais são as principais funcionalidades?</h1>
+        <p><em>Guia Técnico para Desenvolvedores Iniciantes</em></p>
+    </header>
+    
+    <hr>
+
+    <nav>
+        <h2 id="indice">Índice</h2>
+        <ul>
+            <li><a href="#surgimento">Surgimento da Internet</a></li>
+            <li><a href="#funcionamento">Como funciona o HTML</a></li>
+            <li><a href="#o-que-sao">O que são Tags?</a></li>
+            <li><a href="#semantica">Principais Tags de Semântica</a></li>
+            <li><a href="#midia">Principais Tags de Mídia</a></li>
+            <li><a href="#responsividade">Principais Tags de Responsividade e Acessibilidade</a></li>
+            <li><a href="#referencias">Referências</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2 id="surgimento">Surgimento da Internet</h2>
+            <p>A internet nasceu durante a Guerra Fria como <strong>ARPANET</strong>, uma rede descentralizada para fins militares. No entanto, o conceito de <em>web</em> (páginas interligadas) surgiu em 1989 no CERN, pelas mãos de <strong>Tim Berners-Lee</strong>. Ele desenvolveu o HTML para permitir que pesquisadores pudessem ler documentos e "pular" para outros através de hiperlinks.</p>
+
+            <h2 id="funcionamento">Como funciona o HTML</h2>
+            <p>O HTML não é programação, mas uma <strong>linguagem de marcação</strong>. O navegador (Chrome, Firefox, Edge) lê o arquivo de texto e, ao encontrar as marcações, desenha o layout na tela. Ele organiza o conteúdo em uma estrutura lógica onde cada elemento possui um papel específico na hierarquia do documento.</p>
+
+            <h2 id="o-que-sao">O que são Tags?</h2>
+            <p>Tags são os comandos fundamentais do HTML. Elas funcionam como etiquetas que "envelopam" o conteúdo. A anatomia básica de uma tag consiste em:</p>
+            <ol>
+                <li><strong>Abertura:</strong> <code>&lt;tag&gt;</code></li>
+                <li><strong>Conteúdo:</strong> O texto ou elemento interno.</li>
+                <li><strong>Fechamento:</strong> <code>&lt;/tag&gt;</code></li>
+            </ol>
+            <p>Existem também as tags <em>vazias</em>, que não possuem conteúdo interno e se fecham sozinhas, como a tag de imagem ou de quebra de linha.</p>
+
+            <h2 id="semantica">Principais Tags de Semântica</h2>
+            <p>Tags semânticas descrevem o significado do seu conteúdo. Abaixo, uma tabela explicativa:</p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Descrição Semântica</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>&lt;header&gt;</code></td>
+                        <td>Define o cabeçalho da página ou de uma seção específica.</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;main&gt;</code></td>
+                        <td>Representa o conteúdo principal e central do documento.</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;article&gt;</code></td>
+                        <td>Define um conteúdo independente e autossuficiente (como um post).</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;section&gt;</code></td>
+                        <td>Agrupa conteúdos que possuem uma temática relacionada.</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;footer&gt;</code></td>
+                        <td>Contém informações de rodapé, como autor e contato.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2 id="midia">Principais Tags de Mídia</h2>
+            <p>As tags de mídia permitem que a web deixe de ser apenas texto e se torne visual e auditiva:</p>
+            <ul>
+                <li><code>&lt;img&gt;</code>: Insere imagens (requer o atributo <code>src</code> e <code>alt</code>).</li>
+                <li><code>&lt;video&gt;</code>: Incorpora players de vídeo nativos.</li>
+                <li><code>&lt;audio&gt;</code>: Incorpora reprodução de som.</li>
+                <li><code>&lt;canvas&gt;</code>: Utilizada para desenhar gráficos e animações via script.</li>
+            </ul>
+
+            <h2 id="responsividade">Principais Tags de Responsividade e Acessibilidade</h2>
+            <p>Para garantir que o site funcione em qualquer dispositivo e para qualquer pessoa:</p>
+            <ul>
+                <li><strong>Viewport:</strong> A meta tag <code>viewport</code> ajusta a escala do site em telas pequenas.</li>
+                <li><strong>Alt Text:</strong> O atributo <code>alt</code> em imagens é crucial para leitores de tela usados por pessoas com deficiência visual.</li>
+                <li><strong>Labels:</strong> A tag <code>&lt;label&gt;</code> conecta textos a campos de formulário, melhorando a área de clique e a leitura assistiva.</li>
+            </ul>
+
+            <h2 id="referencias">Referências</h2>
+            <p>Para aprofundar seus estudos, consulte estes materiais:</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs - Documentação Oficial</a></li>
+                <li><a href="https://www.w3.org/TR/html5/" target="_blank">W3C - Padrões do HTML5</a></li>
+                <li><a href="https://www.youtube.com/c/CursoemVideo" target="_blank">Vídeo: Playlist de HTML5 do Curso em Vídeo</a></li>
+            </ul>
+        </article>
+    </main>
+
+    <hr>
+    
+    <footer>
+        <p>Escrito por: <strong>Mateus Brito</strong></p>
+        <p>Data: Janeiro de 2024</p>
+    </footer>
+
+</body>
+</html>
