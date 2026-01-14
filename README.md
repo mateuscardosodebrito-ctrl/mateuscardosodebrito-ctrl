@@ -27,6 +27,7 @@ Atualmente, participo do **Bootcamp de Desenvolvimento Front-end da DIO em parce
 
 ## 📖 Estudos Recentes
 - [Acesse aqui minha matéria sobre Tags e Semântica HTML](./ex-tags.html)
+- [Recriando a Wikipédia: Mateus Asato (Layout 3 Colunas)](./wikimusic-ex-index.html)
 
 ---
 
