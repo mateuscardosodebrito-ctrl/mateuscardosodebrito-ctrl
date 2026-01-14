@@ -25,6 +25,11 @@ Atualmente, participo do **Bootcamp de Desenvolvimento Front-end da DIO em parce
 
 ---
 
+## 📖 Estudos Recentes
+- [Acesse aqui minha matéria sobre Tags e Semântica HTML](./ex-tags.html)
+
+---
+
 ## 📂 O que você vai encontrar por aqui
 
 - Projetos de estudo em **front-end**
