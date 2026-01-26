@@ -36,8 +36,9 @@ Cada repositório representa um passo na minha evolução como desenvolvedor.
 
 ## 📫 Vamos nos conectar?
 
-* 💼 LinkedIn: *(adicione seu link aqui)*
+* 💼 LinkedIn: *https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile*
 * 🧑‍💻 GitHub: *(você já está aqui 😄)*
+* 📂 DIO: https://web.dio.me/users/mateuscardosodebrito?tab=achievements
 
 ---
 
